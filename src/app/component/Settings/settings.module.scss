@@ -1,0 +1,19 @@
+.settings, .range {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.settings {
+  width: 200px;
+  margin: 0 auto;
+  font-size: 2rem;
+}
+
+.range {
+  width: 100%;
+  input {
+    width: 100%;
+  }
+}
